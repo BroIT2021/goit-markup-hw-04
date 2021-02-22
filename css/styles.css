@@ -154,6 +154,16 @@ color: var(--hover-color);
     padding: 200px 0;
     text-align: center;
 
+    background-image:url(../images/studio/peoless.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:1600px ;
+    height:600px ;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
 .main-sect-title-main{
     color: var(--white-color);
