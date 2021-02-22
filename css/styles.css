@@ -94,14 +94,7 @@ img {
     color:var(--nav-color);
     margin-left: 50px;
 
-}
-.cap-contact-mail::before{
-    display: inline-block;
-    content: " ";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-image: url(../images/svg/icons/mail.svg);
+
 }
 
 .cap-nav-link:hover,
