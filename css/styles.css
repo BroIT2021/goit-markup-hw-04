@@ -93,6 +93,8 @@ img {
     padding: 32px 0;
     color:var(--nav-color);
     margin-left: 50px;
+    justify-content: center;
+    
 
 
 }
@@ -114,6 +116,8 @@ img {
 }
 .cap-contacts {
     display: flex;
+    
+    
 }
 .cap-logo {
     font-family: "Raleway", sans-serif;
@@ -157,7 +161,7 @@ color: var(--hover-color);
     padding: 200px 0;
     text-align: center;
 
-    background-image:url(../images/studio/peoless.jpg) ;
+    background-image:url(../images/peoless.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     max-width:1600px ;
@@ -305,7 +309,7 @@ color: var(--hover-color);
   .team-text {
     font-size: 16px;
     line-height: 1.2;
-    margin-bottom: 30px;
+    
 }
 /*----*/
 
@@ -408,14 +412,33 @@ color: var(--hover-color);
     padding: 20px 24px;
 
 }
-.icon-envelope-hover{
- width: 16px;
- height: 12px;
+
+.icon-header {
+display: inline-block;
+    margin-right: 10px;
     
 }
-.icon-telephone 
-{
-    
+.icon{
+     background: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+   .icon-social{
+       display: flex;
+       align-items: center;
+       justify-content:space-between;
+       width: 206px;
+       height: 44px;
+       margin-top: 16px;
+       
+       
+   
+   
+   
     
 
-}
